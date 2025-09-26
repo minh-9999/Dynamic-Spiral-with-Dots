@@ -16,27 +16,30 @@ The spiral is rendered point by point, with colors generated in HSV space, conve
 ---
 
 ## 📂 Project Structure
-.   
-├── CMakeLists.txt   
-│  
-├── main.cpp    
-│  
-├── color_utils.cc   
-│  
-├── color_utils.hh  
-│  
-├── convertColor.cc  
-│  
-├── convertColor.hh  
-│  
-├──cmake-wrapper/   # CMakeLists.txt for Little-CMS   
-│  
-├──profiles/    # contain *icc files  
-│   
-├── third_party/    # external libraries (fetched automatically by CMake)   
-│  
-└── README.md  
 
+<pre>
+
+📦 Project
+│ 
+├── 📄 CMakeLists.txt
+│ 
+├── 📝 main.cpp
+│ 
+├── 🎨 color_utils.{cc,hh}
+│ 
+├── 🎨 convertColor.{cc,hh}
+│ 
+├── ⚙️  cmake-wrapper/
+│   └── 📄 CMakeLists.txt
+│ 
+├── 🎨 profiles/
+│   └── 🎨 AdobeRGB1998.icc
+│ 
+├── 📚 third_party/
+│ 
+└── 📘 README.md
+
+</pre>
 
 ---
 
