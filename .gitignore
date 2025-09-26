@@ -1,3 +1,11 @@
+##### skip folders
+build/
+.vscode/
+third_party/
+.cache/
+
+
+##### skip files
 # Prerequisites
 *.d
 
