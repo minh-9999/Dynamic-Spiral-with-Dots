@@ -3,6 +3,8 @@
 This project draws a colorful spiral using **SFML** for graphics and **LittleCMS (lcms2)** for color profile conversion.  
 The spiral is rendered point by point, with colors generated in HSV space, converted from **AdobeRGB** to **sRGB** using LittleCMS, and displayed in real time.
 
+![Animation](https://raw.githubusercontent.com/minh-9999/Dynamic-Spiral-with-Dots/refs/heads/main/result/Animation.gif)
+
 ---
 
 ## ✨ Features
